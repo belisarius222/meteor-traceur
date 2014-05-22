@@ -21,7 +21,7 @@ var handler = function (compileStep) {
     path: outputFile,
     sourcePath: compileStep.inputPath,
     data: result.js,
-    soureMap: result.sourceMap
+    sourceMap: result.sourceMap
   });
 };
 
